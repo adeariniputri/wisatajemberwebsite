@@ -1,0 +1,791 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 8px;
+  }
+  /*topbar*/
+  .atas{
+    position: relative;
+  }
+  .logo{
+    width: 25%;
+    margin: auto;
+    float: none;
+  }
+  .atas .list{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .atas2 .list2{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .list ul{
+   list-style-type: none;
+  }
+  .list ul li{
+    display: block;
+    color: white;
+    padding: 3% 0;
+  }
+  .list2 ul li{
+    display: block;
+    padding: 3% 10%;
+  }
+  .atas2 .list2{
+    width: 100%
+  }
+  .atas2 .list2 ul li{
+    display: block;
+    padding: 3% 10%;
+  }
+  .atas3{
+    position: relative;
+    margin-top: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .atas3 .list2 ul li{
+    display: block;
+    padding: 3% 10%;
+  }
+  .pilihan{
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 6%;
+    font-size: 8px;
+  }
+  .pilihan1,.pilihan2{
+    display: block;
+    width: 50%;
+    margin-bottom: 1%;
+    padding: 0;
+    margin-top: 3%;
+  }
+  .pilihan1 a,.pilihan2 a{
+    padding: 2%;
+  }
+  .next img,.previous img{
+    display: none;
+  }
+
+  .tengah0,.tengah1,.tengah2{
+    font-size: 10px;
+    padding: 1% 0;
+    letter-spacing: 1px;
+  }
+  .traveller{
+    padding: 1% 0;
+    text-align: center;
+  }
+  .traveller img{
+    width: 75%;
+    margin: auto;
+    float: none;
+    margin-bottom: 2%;
+  }
+  .isitraveller{
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    font-size: 8px;
+    letter-spacing: .6px;
+    margin-bottom: 3%;
+  }
+  .isitraveller p{
+    text-align: center;
+  }
+  .logokami{
+    float: none;
+    width: 50%;
+    margin: 0 25%;
+  }
+  .tentang1{
+    margin: 3% 0;
+  }
+  .tentang1 p,.tentang2 p{
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 12px;
+  }
+  .fotovideo img{
+    width: 75%;
+    margin-left: 0;
+  }
+  .judul p{
+    font-size: 15px;
+  }
+  .judul span{
+    font-size: 10px;
+  }
+  .judul h1{
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .isiairterjun h2,.isiairterjun2 h2{
+    font-size: 10px;
+    margin-bottom: 0;
+    line-height: 14px;
+  }
+  .isiairterjun{
+    float: none;
+    width: 85%;
+  }
+  .isiairterjun2{
+    width: 85%;
+    margin-left: 6%;
+    margin-bottom: 10%;
+  }
+  .polres img{
+    width: 75%;
+  }
+  .isipolres p{
+    text-align: justify;
+    font-size: 10px;
+    width: 75%;
+    margin-left: 12.5%;
+    line-height: 12px;
+  }
+  .acara .form form{
+    font-size: 10px;
+  }
+  .acara .form1{
+    width: 83.33%;
+  }
+  .acara .form2{
+    margin-left: 0;
+    width: 83.33%;
+  }
+  .acara .form1 input{
+    width: 100%;
+  }
+  .acara .form2 textarea{
+    width: 100%;
+  }
+  .acara .checkbox{
+    font-size: 8px;
+  }
+  .media{
+    font-size: 6px;
+    width: 90%;
+    text-align: center;
+    padding-left: 5%;
+  }
+  .media1{
+    text-align: left;
+    display: inline-block;
+    width: 39%;
+    margin-bottom: 5%;
+  }
+  .media2{
+    text-align: left;
+    display: inline-block;
+    width: 39%;
+    float: none;
+    margin-right: 0;
+    margin-left: 5%;
+  }
+  .media3{
+    text-align: left;
+    display: inline-block;
+    width: 39%;
+    float: none;
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+  .media4{
+    text-align: left;
+    display: inline-block;
+    width: 39%;
+    float: none;
+    margin-left: 5%;
+  }
+  .media5{
+    text-align: left;
+    display: inline-block;
+    float: none;
+    width: 39%;
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+  .media6{
+    text-align: left;
+    display: inline-block;
+    float: none;
+    width: 39%;
+    margin-top: 0;
+    margin-left: 5%;
+  }
+  .video,.video1,.video2{
+    display: none;
+  }
+  .acara1{
+    margin: 0 12.5% 4% 12.5%;
+    width: 75%;
+  }
+  .polres1,.jfc1,.tajem1{
+    font-size: 10px;
+  }
+  .polres2,.jfc2,.tajem2{
+    font-size: 8px;
+  }
+  .selengkapnya{
+    display: inline;
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+  .acara2{
+    float: none;
+    margin: 0 12.5% 4% 12.5%;
+    width: 75%;
+  }
+  .acara3{
+  margin: 0 12.5% 4% 12.5%;
+  width: 75%;
+  }
+  .berita{
+    font-size: 8px;
+    padding: 5px;
+  }
+  .gambarbawah{
+    height:70px;
+  }
+  .hakcipta{
+    font-size: 6px;
+  }
+  .tabel{
+    text-align: center;
+    margin-left: 5%;
+  }
+  table tr td{
+    padding: .5% 8px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  .overlay img{
+    box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+    width: 50%;
+    margin-top: 15%;
+  }
+  #posterpolres img,#posterjfc img,#postertajem img{
+    box-shadow: 2px 2px 7px rgba(0,0,0,.5);
+    width: 40%;
+    margin-top: 15%;
+  }
+  .overlay .close{
+    left: 45%;
+  }
+  .next,.prev{
+    width: 16%;
+    height: 10%;
+    background-image: url(images/next.png);
+    position: absolute;
+    text-indent: -9999px;
+    margin-top: 23%;
+    margin-left: 7%;
+    background-repeat: no-repeat;
+    opacity: 0;
+  }
+  .prev{
+    background-image: url(images/prev.png);
+    margin-left: -24%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body{
+    font-size: 12px;
+  }
+  .logo{
+    width: 16.66%;
+  }
+  .list ul li{
+    padding: 1.5% 3%;
+  }
+  .atas2 .list2{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .list2 ul li{
+    display: inline-block;
+    padding: 1% 1%;
+  }
+  .atas2 .list2 ul li{
+    padding-right: 0;
+  }
+  .pilihan{
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 6%;
+    font-size: 12px;
+  }
+  .pilihan1,.pilihan2{
+    display: block;
+    width: 50%;
+    margin-bottom: 1%;
+    padding: 0;
+    margin-top: 3%;
+  }
+  .pilihan1 a,.pilihan2 a{
+    padding: 2%;
+  }
+  .next img,.previous img{
+    display: none;
+  }
+  .tengah0,.tengah1,.tengah2{
+    font-size: 18px;
+    padding: 1% 0;
+    letter-spacing: 2px;
+  }
+  .traveller{
+    padding: 1% 0;
+    text-align: center;
+  }
+  .traveller img{
+    width: 75%;
+    margin-bottom: 2%;
+  }
+  .isitraveller{
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    font-size: 13px;
+    margin-bottom: 5%;
+    letter-spacing: 1px;
+  }
+  .isitraveller p{
+    text-align: center;
+  }
+  .logokami{
+    float: none;
+    width: 25%;
+    margin: 0 37.5%;
+  }
+  .tentang1{
+    margin: 3% 0;
+  }
+  .tentang1 p,.tentang2 p{
+    text-indent: 40px;
+    text-align: justify;
+    font-size: 15px;
+  }
+  .fotovideo iframe{
+    display: none;
+  }
+  .fotovideo img{
+    width: 80%;
+    margin-left: 0;
+  }
+  .media1 img{
+    margin-right: 5%;
+  }
+  .media3{
+    margin-top: -26.5%;
+  }
+  .media6{
+    margin-top: -22%;
+  }
+  .video,.video1,.video2{
+    display: none;
+  }
+  .judul p{
+    font-size: 20px;
+  }
+  .judul span{
+    font-size: 15px;
+  }
+  .polres img{
+    width: 75%;
+  }
+  .isipolres p{
+    text-align: justify;
+    font-size: 17px;
+    width: 75%;
+    margin-left: 12.5%;
+    line-height: 19px;
+  }
+  .acara .form form{
+    font-size: 12px;
+  }
+  .acara .form1{
+    width: 41.33%;
+    float: left;
+  }
+  .acara .form2{
+    margin-left: 58.33%;
+    width: 41.33%;
+  }
+  .acara .form1 input{
+    width: 100%;
+  }
+  .acara .form2 textarea{
+    width: 100%;
+  }
+  .acara .checkbox{
+    font-size: 10px;
+  }
+  .polres1,.jfc1{
+    font-size: 13px;
+  }
+  .polres2,.jfc2{
+    font-size: 11px;
+  }
+  .selengkapnya{
+    display: inline;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+  .berita{
+    font-size: 11px;
+    padding: 5px;
+  }
+  .gambarbawah{
+    height: 110px;
+  }
+  .hakcipta{
+    font-size: 9px;
+  }
+  .tabel{
+    text-align: center;
+    margin-left: -2%;
+  }
+  table tr td{
+    padding: .7% 32px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .overlay img{
+    margin-top: 4%;
+  }
+  #posterpolres img,#posterjfc img,#postertajem img{
+    margin-top: 4%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body{
+    font-size: 15px;
+    font-family: "brandon-grotesque",sans-serif;
+  }
+  .atas{
+    background: rgba(0,0,0,.7);
+    width: 100%;
+    height: auto;
+    color: white;
+  }
+  .logo{
+    width: 11%;
+    margin-left: 8.33%;
+    float: left;
+  }
+  .atas .list{
+    width: 66.66%;
+    margin-left: 33.33%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .list ul{
+   list-style-type: none;
+  }
+  .list ul li{
+    display: inline-block;
+    padding: 0 6%;
+    color: white;
+  }
+  .atas .list{
+    width: 66.66%;
+    margin-left: 33.33%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .list ul{
+   list-style-type: none;
+  }
+  .list ul li{
+    display: inline-block;
+    padding: 0 6%;
+    color: white;
+  }
+  .atas2{
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    opacity: 1;
+    position: relative;
+    height: auto;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .atas2 .list2{
+    text-align: center;
+    display: inline-block;
+    width: 75%;
+    margin: auto;
+    width: 100%;
+  }
+  .list2 ul li{
+    display: inline-block;
+    padding: 0 3%;
+    color: black;
+  }
+  .atas3{
+    background-color: white;
+    width: 100%;
+    opacity: 1;
+    position: relative;
+    height: auto;
+    color: black;
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 0;
+  }
+  .pilihan{
+    display: block;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 6%;
+    font-size: 15px;
+  }
+  .pilihan1,.pilihan2{
+    display: block;
+    width: 50%;
+    margin-bottom: 1%;
+    padding: 0;
+    margin-top: 3%;
+  }
+  .pilihan1 a,.pilihan2 a{
+    padding: 2%;
+  }
+  .gambar{
+    width: 100%;
+  }
+  .next img,.previous img{
+    position: absolute;
+    display: inline-block;
+    width: 8.33%;
+    margin-top: -27%;
+  }
+  .tengah0,.tengah1,.tengah2{
+    display: inline-block;
+    width: 100%;
+    font-size: 23px;
+    text-align: center;
+    padding: 2% 0;
+    opacity: .5;
+    letter-spacing: 5px;
+  }
+  .logokami{
+    float: left;
+    width: 33.33%;
+    margin: 0;
+  }
+  .tentang1{
+    margin-left: 40%;
+    margin-bottom: 3%;
+  }
+  .tentang1 p,.tentang2 p{
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 18px;
+  }
+  .fotovideo iframe{
+    display: inline;
+    width: 41.66%;
+    margin-right: 0;
+  }
+  .fotovideo img{
+    width: 41.66%;
+    margin-left: 0;
+  }
+  .judul p{
+    margin-bottom: 3%;
+    font-weight: bold;
+    color: #640202;
+    font-size: 23px;
+  }
+  .judul span{
+    font-size: 15px;
+    opacity: .5;
+  }
+  .polres img{
+    width: 52%;
+  }
+  .isipolres p{
+    text-align: justify;
+    width: 52%;
+    margin: 3% 24%;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .traveller{
+    padding: 1% 0;
+    text-align: center;
+  }
+  .traveller img{
+    text-align: center;
+    width: 50%;
+    margin-bottom: 2%;
+  }
+  .isitraveller{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    font-size: 18px;
+    margin-bottom: 5%;
+    letter-spacing: 3px;
+  }
+  .isitraveller p{
+    text-align: center;
+  }
+  .media{
+    width: 80%;
+    background-color: #E1E1E1;
+    padding: 2% 10%;
+  }
+  .media3{
+    margin-top: -26%;
+  }
+  .media6{
+    margin-bottom: 7%;
+    margin-top: -21.6%;
+  }
+  .video{
+    display: inline-block;
+    margin-top: 10%;
+  }
+  .video{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 0;
+  }
+  .video1{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 0;
+  }
+  .video2{
+    display: inline;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .acara1{
+    display: inline-block;
+    width: 33.33%;
+    margin-left: 12%;
+  }
+  .polres1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .polres2{
+    font-size: 15px;
+    opacity: .5;
+  }
+  .selengkapnya{
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+  .acara2{
+    width: 33.33%;
+    float: right;
+    margin-right: 11%;
+  }
+  .jfc1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .jfc2{
+    font-size: 15px;
+    opacity: .5;
+  }
+  .semuaberita{
+    text-align: center;
+    padding: 10px;
+    margin-top: 5%;
+  }
+  .berita{
+    display: inline;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 15px;
+    padding: 8px;
+  }
+  .acara .form form{
+    width: 83.33%;
+    margin: 0 8.33%;
+    font-size: 15px;
+  }
+  .acara .form1{
+    width: 41.66%;
+    float: left;
+  }
+  .acara .form2{
+    margin-left: 58.33%;
+    width: 41.66%;
+  }
+  .acara .form1 input{
+    width: 100%;
+  }
+  .acara .form2 textarea{
+    width: 100%;
+  }
+  .acara .checkbox{
+    font-size: 10px;
+  }
+  .gambarbawah{
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+  }
+  .hakcipta{
+    color: white;
+    padding: 10px;
+    margin-top: -3px;
+    font-size: 12px;
+  }
+  .tabel{
+    text-align: center;
+    margin-left: 6.5%;
+  }
+  table tr td{
+    padding: 1% 60px;
+    text-align: center;
+    border: 1px solid black;
+  }
+}

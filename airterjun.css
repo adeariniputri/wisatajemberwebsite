@@ -1,0 +1,164 @@
+body{
+  font-size: 15px;
+  font-family: "brandon-grotesque",sans-serif;
+}
+.atas{
+  background-color: black;
+  width: 100%;
+  opacity: .7;
+  position: absolute;
+  height: auto;
+  color: white;
+}
+.logo{
+  width: 11%;
+  margin-left: 8.33%;
+  float: left;
+}
+.logo img{
+  width: 100%;
+  opacity: 1;
+}
+
+.atas .list{
+  width: 66.66%;
+  margin-left: 33.33%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+ ul{
+ list-style-type: none;
+}
+ ul li{
+  display: inline-block;
+  padding: 0 6%;
+  color: white;
+}
+ a{
+  text-decoration: none;
+  color: white;
+  margin: 2% 0;
+}
+.atas2{
+  background-color: white;
+  width: 100%;
+  opacity: 1;
+  position: relative;
+  height: auto;
+  color: black;
+  border: 1px solid black;
+}
+.bold{
+  font-weight: bold;
+}
+.bold1{
+  font-weight: bold;
+}
+.list2{
+  text-align: center;
+}
+.list2{
+   width: 66.66%;
+  margin-left: 33.33%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.judul{
+  margin: 4% 0;
+  text-align: center;
+}
+.judul p{
+  margin-bottom: 3%;
+  font-weight: bold;
+  color: #640202;
+  font-size: 23px;
+}
+.judul span{
+  font-size: 15px;
+  opacity: .5;
+}
+.gambar{
+  display: inline-block;
+  width: 100%;
+  height: 620px;
+}
+.gambar .papuma{
+  width: 100%;
+  height: 100%;
+}
+
+.tengah0{
+  display: inline-block;
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+  padding: 2% 0;
+  opacity: 1;
+  letter-spacing: 5px;
+  font-family: caviar dreams;
+  font-weight: bold;
+}
+.airterjuncontent {
+  text-align: justify;
+}
+.airterjuncontent .isiairterjun{
+    font-size: 20px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-bottom: 10%;
+    line-height: 20px;
+}
+.isiairterjun img{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+td img{
+    align-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 80%;
+    height: 60%;
+    padding: 5%;
+}
+th{
+    font-family: caviar dreams;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+table{
+    align-content: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.gambarbawah{
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+}
+.gambarbawah img{
+  width: 100%;
+  height: 100%;
+}
+.bawah{
+  background-color: #878484;
+  text-align: center;
+}
+.hakcipta{
+  color: white;
+  padding: 10px;
+  margin-top: -3px;
+  font-size: 12px;
+}
+
+
+@font-face {
+font-family: "brandon-grotesque";
+src: url("https://use.typekit.net/af/d8f71f/0000000000000000000132e1/27/l?subset_id=1&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/d8f71f/0000000000000000000132e1/27/d?subset_id=1&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/d8f71f/0000000000000000000132e1/27/a?subset_id=1&fvd=n5&v=3") format("opentype");
+font-style: normal;
+font-weight: 500;
+}
